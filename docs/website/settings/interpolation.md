@@ -8,11 +8,8 @@ hide_table_of_contents: true
 Interpolation makes motion animations in projects appear smoother by interpolating movement of sprites between frames. It's basically higher framerate without affecting how fast scripts run.
 
 Interpolation should not be used on:
-
- - 3D projects
- - Raytracers
- - Pen projects
- - Laggy projects
+ - Singe
+ - Mason
 
 Interpolation is unlikely to make these projects look smoother because interpolation can't interpolate pen, but it will hurt performance.
 
